@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.17"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=local nodemon server.js"
+  }
+}
